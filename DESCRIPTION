@@ -1,0 +1,14 @@
+Package: ANR
+Title: ANR
+Version: 1.0.0
+Authors@R: person("Jader Garbelini", email = "jadermcg@gmail.com", role = c("aut", "cre"))
+Description: This package contains auxiliary functions for solve motifs discovery problem.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: Rcpp, RcppArmadillo, universalmotif, UTILS
+LinkingTo: Rcpp, RcppArmadillo
+SystemRequirements: C++ compiler with OpenMP support
+#Suggests: knitr
+#VignetteBuilder: knitr
+RoxygenNote: 7.2.3

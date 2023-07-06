@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+useDynLib(ANR)
+importFrom(Rcpp, evalCpp)
+import(RcppArmadillo)
+import(universalmotif)
+import(UTILS)
